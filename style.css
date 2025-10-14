@@ -46,11 +46,9 @@ body{
 }
 
 .logo {
-  color: #e50914;      
-  font-weight: bold;     
+  color: #e50914;          
   font-size: 35px;       
-  font-family: Arial; 
-  *letter-spacing: 2px;   
+  font-family: Arial;  
   padding-left: 20px;
   float: left;
   padding-top: 10px;
