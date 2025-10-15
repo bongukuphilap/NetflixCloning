@@ -135,6 +135,15 @@ h1 {
   font-weight: bolder;  
   color: white;
 }
+
+h3 { 
+  color: white;
+}
+
+p {  
+  color: white;
+}
+
                                        /*TRENDING NOW*/
 .trending-header {
   background-color: black;
