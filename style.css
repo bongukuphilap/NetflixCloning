@@ -116,11 +116,12 @@ body{
 }
 
 header {
-  position: fixed;       
+  position: absolute;       
   top: 0;
   left: 0;
   width: 100%;
-  padding: 0px  0px;
+  padding: 20px  30px;
+  color: white;
   display: flex;         
   justify-content:space-around; 
   align-items: center;
