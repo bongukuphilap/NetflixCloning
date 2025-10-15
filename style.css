@@ -54,13 +54,15 @@ body{
 }
 
 .logo {
- position: fixed;
-  top: 10px;
-  left: 20px;
-  font-size: 35px;
+  color: #e50914;       
+  font-size: 35px;       
+  font-family: Arial; 
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+  justify-content: space-between;
   font-weight: bold;
-  color: #e50914;
-  z-index: 1000;
+  
 }
 .email-form {
   display: flex;
@@ -107,7 +109,7 @@ body{
   padding-left: 20px;
   float: right;
   padding-top: 10px;
-  position: fixed;
+
 
 }
 
