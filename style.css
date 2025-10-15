@@ -187,31 +187,59 @@ h1 {
 }
 
                                           /*More Reason to Join*/
- .reasons-section {
-  background-color: black;
+
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.reasons {
+  background-color: #000;
   color: white;
-  padding: 40px 20px;
-  font-family: Arial, sans-serif;
-  max-width: 900px;
-  margin: auto;
+  padding: 80px 12%;
   text-align: center;
 }
 
-.reasons-section h2 {
-  font-size: 26px;
-  margin-bottom: 30px;
+.reasons h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+  font-weight: bold;
 }
 
-.reason {
-  margin-bottom: 30px;
+.reasons-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
 }
 
-.reason h4 {
+.reason-box {
+  background-color: #111;
+  padding: 30px 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.reason-box:hover {
+  transform: scale(1.05);
+  background-color: #1a1a1a;
+}
+
+.reason-box img {
+  width: 70px;
+  margin-bottom: 20px;
+}
+
+.reason-box h3 {
   font-size: 20px;
   margin-bottom: 10px;
+  color: red;
 }
 
-.reason p {
+.reason-box p {
   font-size: 16px;
   color: #ccc;
 }
