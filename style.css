@@ -132,38 +132,59 @@ h1 {
   color: white;
 }
                                        /*TRENDING NOW*/
-.trending-section {
+.trending-header {
   background-color: black;
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.trending-header h1 {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.back-home {
   color: white;
-  padding: 40px 20px;
-  font-family: Arial, sans-serif;
-  max-width: 600px;
-  margin: auto;
-  text-align: center;
+  text-decoration: none;
+  background-color: red;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
 }
 
-.trending-section h2 {
-  font-size: 24px;
-  margin-bottom: 30px;
+.trending {
+  padding: 50px 12%;
+  background-color: #000; 
+  color: #fff;
 }
 
-.trend-item {
+.trending h2 {
+  font-size: 28px;
   margin-bottom: 20px;
 }
 
-.trend-item img {
-  width: 100%;
-  max-width: 300px;
-  border-radius: 6px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+.movie-row {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto; 
 }
 
-.trend-item p {
-  margin-top: 10px;
-  font-size: 16px;
-  color: #ccc;
+.movie-row img {
+  width: 180px;
+  border-radius: 10px;
+  transition: transform 0.3s;
 }
 
+.movie-row img:hover {
+  transform: scale(1.1);
+}
+
+.hidden {
+  display: none;
+}
 
                                           /*More Reason to Join*/
  .reasons-section {
