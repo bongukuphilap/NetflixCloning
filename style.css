@@ -300,6 +300,7 @@ details p {
 
 
                                               /*FOOTER*/
+/* Email Section */
 .email-section {
   background-color: black;
   color: white;
@@ -313,6 +314,7 @@ details p {
   margin-bottom: 20px;
 }
 
+/* Email Form */
 .email-form {
   display: flex;
   justify-content: center;
@@ -343,19 +345,21 @@ details p {
   background-color: #f6121d;
 }
 
-.footer {
+/* Footer Section */
+footer {
+  position: relative;
   background-color: black;
   color: white;
   padding: 40px 20px;
   font-family: Arial, sans-serif;
   font-size: 14px;
   text-align: center;
-  text-decoration: underline;
 }
 
 .footer-call {
   margin-bottom: 20px;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .footer-links {
@@ -377,9 +381,14 @@ details p {
   font-weight: bold;
   margin-top: 20px;
 }
+
+/* Language Selector */
 .language-selector {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
   background-color: black;
   color: white;
   border: 1px solid white;
@@ -387,7 +396,6 @@ details p {
   border-radius: 4px;
   font-family: Arial, sans-serif;
   font-size: 14px;
-  margin-top: 20px;
 }
 
 .language-selector .globe-icon {
@@ -401,7 +409,11 @@ details p {
   border: none;
   font-size: 14px;
   cursor: pointer;
+  width: auto;
+  padding: 4px 8px;
 }
+
+
 
 
 
